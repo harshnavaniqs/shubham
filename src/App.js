@@ -17,7 +17,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://apimocha.com/quicksell/data')
+    fetch('https://api.quicksell.co/v1/internal/frontend-assignment')
       .then((res) => res.json())
       .then((json) => {
         this.setState({
